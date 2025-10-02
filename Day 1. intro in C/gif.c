@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {float a ;
-printf("Inpur your number");
+printf("Input your number");
 scanf ("%f",&a);
 int b ;
 b=a;

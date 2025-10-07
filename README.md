@@ -41,7 +41,7 @@ Over the next few years, I hope to:
 
 Contribute to open-source projects
 
-Work on AI-driven applications
+Work on applications & real world problems
 
 Explore real-world problem-solving through technology
 
@@ -50,6 +50,8 @@ Explore real-world problem-solving through technology
 Energetic , approachable, and always curious about how things work
 
 A self-proclaimed “tech nerd” who loves tinkering with gadgets
+
+Wizard 
 
 Excited to explore new tools, frameworks, and coding challenges every day
 

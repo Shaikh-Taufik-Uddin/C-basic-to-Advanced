@@ -1,8 +1,6 @@
 # C-basic-to-Advanced
 This is not something new or anything .... simply keeping Track of my coding journey
 
-About myself
-
 👋 About Me
 
 Hello! I’m Shaikh Taufik Uddin, a first-year Computer Science & Engineering student at JIS College of Engineering.

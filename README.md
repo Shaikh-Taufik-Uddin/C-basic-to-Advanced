@@ -9,7 +9,7 @@ I come from Khardah, West Bengal, a quiet yet lively town where I grew up explor
 📚 Education
 
 10th Board – Khardah Shibnath High School
-‣ Scored 95.43% and achieved All West Bengal Rank 25
+‣ Scored 95.43% and achieved All West Bengal (state) Rank 25
 
 12th Board – Rahara Ramakrishna Mission
 ‣ Graduated with 93 percentile

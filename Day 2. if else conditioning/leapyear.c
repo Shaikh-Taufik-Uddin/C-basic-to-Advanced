@@ -10,3 +10,6 @@ int main ()
     return 0 ;
     
 }
+
+// more precisely loop 
+// if ((year%4==0&&year%100!=0)||(year%400==0))

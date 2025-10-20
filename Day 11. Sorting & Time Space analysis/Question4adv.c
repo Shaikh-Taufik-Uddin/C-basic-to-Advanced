@@ -5,8 +5,7 @@ int main()
     int arr[] = {1, 1, 1, 1, 1, 2, 2};
     int n = 7;
     int number = 0;
-    int number2 = 0;
-    int count = 0;
+    int number2 = 0;
     printf("The unsorted array is : ");
     for (int i = 0; i < n; i++)
     {

@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <string.h>
-int main()
-{
-    char str[] = "qwertyuiopasdfghjklzxcvbnm";
-    char *ptr = str; // stores address of str in ptr (address of the 1st element precisely)
-    printf("%p", ptr);
-    printf("\n%p", str); // we dont need to give & before str to print its address
-    while (*ptr != 0)
-    {
-        printf("%c", *ptr);
-        ptr++; // it is happening bcz the address of the other elements in the string is adjacent to the previous element in the memory
-        // so when ptr goes to nest location it finds the next letter
-    }
-    return 0;
+int main() {
+	char *ptr = "c is best"; // normal defining and printing
+	ptr="h";                 // we can change entire thing at a time not individually unlike char str[];
+	puts(ptr);
+	char str[] = "hello world"; // normal defining and printing
+	puts(str);
+	ptr = str;           // ptr is moved to str
+	puts(ptr);           // str gets printed
+	*ptr = 'p';          // 'h' is modified with 'p'  (ptr='p' wont do nothin without the *)
+	puts(str);           // modified str is printed
+	ptr = "c++ is next"; // new string in ptr
+	puts(str);           // modified str gets printed
+	puts(ptr);           // new ptr is printed ( actually the pointer moves from str and points towards a new string)
+	return 0;
 }

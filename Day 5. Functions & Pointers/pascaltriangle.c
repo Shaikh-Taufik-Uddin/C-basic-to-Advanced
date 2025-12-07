@@ -1,39 +1,39 @@
-#include<stdio.h>
-int factorial(int a)
+#include <stdio.h>
+
+void printrow(int r)
 {
-    int fact=1;
-    for(int i=a;i>0;i--)
+    int element = 1;
+    printf("%d ", element);
+
+    for (int c = 1; c < r; c++)   // loop for printing row
     {
-        fact=fact*i;
+        element = element * (r - c) / c;
+        printf("%d ", element);
     }
-    return fact;
 }
-int ncr(int n,int r)
-{
-    int ans=factorial(n)/(factorial(r)*factorial(n-r));
-    return ans ;
-}
+
 int main()
 {
     int n;
-    printf("enter a number: ");
-    scanf("%d",&n);
-    for(int i=0;i<=n;i++)
+    printf(" Enter number of rows : ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++)
     {
-        int a=n-i;
-        for(int j=a;j>0;j--)
+        int a = n - i;
+
+        for (int j = a; j >= 1; j--)   // loop for printing upside-down triangle
         {
             printf(" ");
         }
-        a--;
-        for(int j=0;j<=i;j++)
-        {
-            printf("%d ",ncr(i,j));
-        }
+
+        printrow(i);   // row printer
         printf("\n");
     }
+
     return 0;
 }
+
 
 // better method (but maths heavy) 
 // below part is only for the actual triangle not the spaces too !
@@ -58,4 +58,5 @@ int main()
 
 //     return 0;
 // }
+
 
